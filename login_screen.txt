@@ -16,3 +16,16 @@ Explanation
 
 This code will create a simple and visually appealing login screen for an iPhone app. 
 Feel free to replace the system image with your actual logo and customize the button action as needed.
+some recommendations to improve the security of the current SwiftUI login screen:
+
+Secure Storage: Avoid storing sensitive information (like usernames and passwords) in plain text. Use secure storage mechanisms such as Keychain for storing sensitive data.
+
+Input Validation: Validate input fields to prevent injection attacks. Ensure that the username and password meet required criteria before processing them.
+
+Network Security: Ensure that any network requests made for authentication are done over HTTPS. Avoid logging sensitive information in plain text.
+
+Password Handling: Implement proper password handling mechanisms, such as hashing and salting passwords before storing or transmitting them.
+
+Secure Coding Practices: Regularly review and update the code to follow secure coding practices and guidelines.
+
+For additional security, consider implementing multi-factor authentication (MFA) and monitoring for suspicious activities.
